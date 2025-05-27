@@ -44,7 +44,7 @@ defmodule NebulexAdaptersHorde.MixProject do
   defp deps do
     [
       nebulex_dep(),
-      {:horde, "~> 0.8.7"},
+      {:horde, "~> 0.9.0"},
       {:benchee, "~> 1.0", only: :test},
       {:benchee_html, "~> 1.0", only: :test},
       {:flow, "~> 1.1", only: :test},
